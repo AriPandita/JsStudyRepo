@@ -16,4 +16,16 @@ while (b <= 10){
     b++;
 }
 
+document.write('<br>');
+
+//do while
+c = 1;
+do{
+    document.write(`Do While ke ${c}, `);
+    c++;
+}while(c <= 10);
+
+//NOTE FOR DO WHILE : Do while akan melakukan perulangan minimal 1 kali walaupun kondisi tidak terpenuhi
+
+
 //================== LOOPING END ===============//
